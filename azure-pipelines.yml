@@ -7,6 +7,7 @@ trigger:
 - master
 
 pool:
+  name: first_agent_pool
   vmImage: ubuntu-latest
 strategy:
   matrix:
